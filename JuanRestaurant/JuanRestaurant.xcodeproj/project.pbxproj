@@ -37,6 +37,14 @@
 		AC64D085279123220053B7DE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D084279123220053B7DE /* AppCoordinator.swift */; };
 		AC6BFEED27912FCB00AE9C46 /* HelperBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFEEC27912FCB00AE9C46 /* HelperBundle.swift */; };
 		AC6BFEEF279130E300AE9C46 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFEEE279130E300AE9C46 /* WelcomeViewModel.swift */; };
+		AC6BFEF92791321300AE9C46 /* APIManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFEF82791321300AE9C46 /* APIManager.docc */; };
+		AC6BFEFA2791321300AE9C46 /* APIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6BFEF72791321300AE9C46 /* APIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6BFEFD2791321300AE9C46 /* APIManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6BFEF52791321300AE9C46 /* APIManager.framework */; };
+		AC6BFEFE2791321300AE9C46 /* APIManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC6BFEF52791321300AE9C46 /* APIManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC6BFF032791324D00AE9C46 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF022791324D00AE9C46 /* APIManager.swift */; };
+		AC6BFF062791330000AE9C46 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF052791330000AE9C46 /* HttpMethod.swift */; };
+		AC6BFF082791332500AE9C46 /* HttpHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF072791332500AE9C46 /* HttpHeaders.swift */; };
+		AC6BFF0A2791333900AE9C46 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF092791333900AE9C46 /* HttpError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +83,13 @@
 			remoteGlobalIDString = AC64D0412791134D0053B7DE;
 			remoteInfo = DesignSystem;
 		};
+		AC6BFEFB2791321300AE9C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC64CFFC279081FB0053B7DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6BFEF42791321300AE9C46;
+			remoteInfo = APIManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +100,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				AC64D0582791134D0053B7DE /* DesignSystem.framework in Embed Frameworks */,
+				AC6BFEFE2791321300AE9C46 /* APIManager.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +140,13 @@
 		AC64D084279123220053B7DE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		AC6BFEEC27912FCB00AE9C46 /* HelperBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperBundle.swift; sourceTree = "<group>"; };
 		AC6BFEEE279130E300AE9C46 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		AC6BFEF52791321300AE9C46 /* APIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6BFEF72791321300AE9C46 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		AC6BFEF82791321300AE9C46 /* APIManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = APIManager.docc; sourceTree = "<group>"; };
+		AC6BFF022791324D00AE9C46 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AC6BFF052791330000AE9C46 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		AC6BFF072791332500AE9C46 /* HttpHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeaders.swift; sourceTree = "<group>"; };
+		AC6BFF092791333900AE9C46 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +156,7 @@
 			files = (
 				AC64D0572791134D0053B7DE /* DesignSystem.framework in Frameworks */,
 				AC64D06D27911B580053B7DE /* SnapKit in Frameworks */,
+				AC6BFEFD2791321300AE9C46 /* APIManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +189,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC6BFEF22791321300AE9C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -176,6 +207,7 @@
 				AC64D027279081FD0053B7DE /* JuanRestaurantUITests */,
 				AC64D0432791134D0053B7DE /* DesignSystem */,
 				AC64D0512791134D0053B7DE /* DesignSystemTests */,
+				AC6BFEF62791321300AE9C46 /* APIManager */,
 				AC64D005279081FB0053B7DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,6 +220,7 @@
 				AC64D024279081FD0053B7DE /* JuanRestaurantUITests.xctest */,
 				AC64D0422791134D0053B7DE /* DesignSystem.framework */,
 				AC64D04B2791134D0053B7DE /* DesignSystemTests.xctest */,
+				AC6BFEF52791321300AE9C46 /* APIManager.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -390,6 +423,27 @@
 			path = HelperBundle;
 			sourceTree = "<group>";
 		};
+		AC6BFEF62791321300AE9C46 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFF04279132E900AE9C46 /* Http */,
+				AC6BFEF72791321300AE9C46 /* APIManager.h */,
+				AC6BFEF82791321300AE9C46 /* APIManager.docc */,
+				AC6BFF022791324D00AE9C46 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		AC6BFF04279132E900AE9C46 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFF052791330000AE9C46 /* HttpMethod.swift */,
+				AC6BFF072791332500AE9C46 /* HttpHeaders.swift */,
+				AC6BFF092791333900AE9C46 /* HttpError.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -398,6 +452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC64D0542791134D0053B7DE /* DesignSystem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6BFEF02791321300AE9C46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6BFEFA2791321300AE9C46 /* APIManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +479,7 @@
 			);
 			dependencies = (
 				AC64D0562791134D0053B7DE /* PBXTargetDependency */,
+				AC6BFEFC2791321300AE9C46 /* PBXTargetDependency */,
 			);
 			name = JuanRestaurant;
 			packageProductDependencies = (
@@ -499,6 +562,24 @@
 			productReference = AC64D04B2791134D0053B7DE /* DesignSystemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AC6BFEF42791321300AE9C46 /* APIManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6BFF012791321300AE9C46 /* Build configuration list for PBXNativeTarget "APIManager" */;
+			buildPhases = (
+				AC6BFEF02791321300AE9C46 /* Headers */,
+				AC6BFEF12791321300AE9C46 /* Sources */,
+				AC6BFEF22791321300AE9C46 /* Frameworks */,
+				AC6BFEF32791321300AE9C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIManager;
+			productName = APIManager;
+			productReference = AC6BFEF52791321300AE9C46 /* APIManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -527,6 +608,9 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = AC64D003279081FB0053B7DE;
 					};
+					AC6BFEF42791321300AE9C46 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = AC64CFFF279081FB0053B7DE /* Build configuration list for PBXProject "JuanRestaurant" */;
@@ -550,6 +634,7 @@
 				AC64D023279081FD0053B7DE /* JuanRestaurantUITests */,
 				AC64D0412791134D0053B7DE /* DesignSystem */,
 				AC64D04A2791134D0053B7DE /* DesignSystemTests */,
+				AC6BFEF42791321300AE9C46 /* APIManager */,
 			);
 		};
 /* End PBXProject section */
@@ -588,6 +673,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC64D0492791134D0053B7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6BFEF32791321300AE9C46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,6 +745,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC6BFEF12791321300AE9C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6BFF082791332500AE9C46 /* HttpHeaders.swift in Sources */,
+				AC6BFF032791324D00AE9C46 /* APIManager.swift in Sources */,
+				AC6BFF0A2791333900AE9C46 /* HttpError.swift in Sources */,
+				AC6BFF062791330000AE9C46 /* HttpMethod.swift in Sources */,
+				AC6BFEF92791321300AE9C46 /* APIManager.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -680,6 +784,11 @@
 			isa = PBXTargetDependency;
 			target = AC64D0412791134D0053B7DE /* DesignSystem */;
 			targetProxy = AC64D0552791134D0053B7DE /* PBXContainerItemProxy */;
+		};
+		AC6BFEFC2791321300AE9C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC6BFEF42791321300AE9C46 /* APIManager */;
+			targetProxy = AC6BFEFB2791321300AE9C46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1083,6 +1192,68 @@
 			};
 			name = Release;
 		};
+		AC6BFEFF2791321300AE9C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.APIManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC6BFF002791321300AE9C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.APIManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1136,6 +1307,15 @@
 			buildConfigurations = (
 				AC64D05E2791134D0053B7DE /* Debug */,
 				AC64D05F2791134D0053B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6BFF012791321300AE9C46 /* Build configuration list for PBXNativeTarget "APIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6BFEFF2791321300AE9C46 /* Debug */,
+				AC6BFF002791321300AE9C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
