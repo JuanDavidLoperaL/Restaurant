@@ -16,6 +16,7 @@
 		AC64D01F279081FD0053B7DE /* JuanRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D01E279081FD0053B7DE /* JuanRestaurantTests.swift */; };
 		AC64D029279081FD0053B7DE /* JuanRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D028279081FD0053B7DE /* JuanRestaurantUITests.swift */; };
 		AC64D02B279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D02A279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift */; };
+		AC64D03C279110640053B7DE /* WelcomeBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D03B279110640053B7DE /* WelcomeBaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC64D024279081FD0053B7DE /* JuanRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuanRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64D028279081FD0053B7DE /* JuanRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuanRestaurantUITests.swift; sourceTree = "<group>"; };
 		AC64D02A279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuanRestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC64D03B279110640053B7DE /* WelcomeBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		AC64D006279081FB0053B7DE /* JuanRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				AC64D037279087810053B7DE /* Welcome */,
 				AC64D007279081FB0053B7DE /* AppDelegate.swift */,
 				AC64D009279081FB0053B7DE /* SceneDelegate.swift */,
 				AC64D00B279081FB0053B7DE /* ViewController.swift */,
@@ -125,6 +128,38 @@
 				AC64D02A279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift */,
 			);
 			path = JuanRestaurantUITests;
+			sourceTree = "<group>";
+		};
+		AC64D037279087810053B7DE /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D03A279087920053B7DE /* ViewModel */,
+				AC64D0392790878E0053B7DE /* View */,
+				AC64D038279087860053B7DE /* ViewController */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AC64D038279087860053B7DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AC64D0392790878E0053B7DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D03B279110640053B7DE /* WelcomeBaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC64D03A279087920053B7DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +295,7 @@
 			files = (
 				AC64D00C279081FB0053B7DE /* ViewController.swift in Sources */,
 				AC64D008279081FB0053B7DE /* AppDelegate.swift in Sources */,
+				AC64D03C279110640053B7DE /* WelcomeBaseView.swift in Sources */,
 				AC64D00A279081FB0053B7DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
