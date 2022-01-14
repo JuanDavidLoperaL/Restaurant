@@ -17,6 +17,26 @@
 		AC64D029279081FD0053B7DE /* JuanRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D028279081FD0053B7DE /* JuanRestaurantUITests.swift */; };
 		AC64D02B279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D02A279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift */; };
 		AC64D03C279110640053B7DE /* WelcomeBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D03B279110640053B7DE /* WelcomeBaseView.swift */; };
+		AC64D0462791134D0053B7DE /* DesignSystem.docc in Sources */ = {isa = PBXBuildFile; fileRef = AC64D0452791134D0053B7DE /* DesignSystem.docc */; };
+		AC64D04C2791134D0053B7DE /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC64D0422791134D0053B7DE /* DesignSystem.framework */; };
+		AC64D0532791134D0053B7DE /* DesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D0522791134D0053B7DE /* DesignSystemTests.swift */; };
+		AC64D0542791134D0053B7DE /* DesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = AC64D0442791134D0053B7DE /* DesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC64D0572791134D0053B7DE /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC64D0422791134D0053B7DE /* DesignSystem.framework */; };
+		AC64D0582791134D0053B7DE /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC64D0422791134D0053B7DE /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC64D064279113A70053B7DE /* DSBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D063279113A70053B7DE /* DSBackgroundColor.swift */; };
+		AC64D067279115BB0053B7DE /* DSAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC64D066279115BB0053B7DE /* DSAssets.xcassets */; };
+		AC64D06A279116740053B7DE /* ViewConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D069279116740053B7DE /* ViewConfigurationProtocol.swift */; };
+		AC64D06D27911B580053B7DE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC64D06C27911B580053B7DE /* SnapKit */; };
+		AC64D07127911E610053B7DE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D07027911E610053B7DE /* UIViewExtension.swift */; };
+		AC64D07427911EBB0053B7DE /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D07327911EBB0053B7DE /* UIButtonExtension.swift */; };
+		AC64D07827911F050053B7DE /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D07727911F050053B7DE /* ButtonStyle.swift */; };
+		AC64D07B27911F4B0053B7DE /* DSTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D07A27911F4B0053B7DE /* DSTextColor.swift */; };
+		AC64D07E279121DC0053B7DE /* AppText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D07D279121DC0053B7DE /* AppText.swift */; };
+		AC64D080279121FE0053B7DE /* WelcomeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D07F279121FE0053B7DE /* WelcomeText.swift */; };
+		AC64D0822791227A0053B7DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D0812791227A0053B7DE /* WelcomeViewController.swift */; };
+		AC64D085279123220053B7DE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D084279123220053B7DE /* AppCoordinator.swift */; };
+		AC6BFEED27912FCB00AE9C46 /* HelperBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFEEC27912FCB00AE9C46 /* HelperBundle.swift */; };
+		AC6BFEEF279130E300AE9C46 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFEEE279130E300AE9C46 /* WelcomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +54,42 @@
 			remoteGlobalIDString = AC64D003279081FB0053B7DE;
 			remoteInfo = JuanRestaurant;
 		};
+		AC64D04D2791134D0053B7DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC64CFFC279081FB0053B7DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC64D0412791134D0053B7DE;
+			remoteInfo = DesignSystem;
+		};
+		AC64D04F2791134D0053B7DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC64CFFC279081FB0053B7DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC64D003279081FB0053B7DE;
+			remoteInfo = JuanRestaurant;
+		};
+		AC64D0552791134D0053B7DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC64CFFC279081FB0053B7DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC64D0412791134D0053B7DE;
+			remoteInfo = DesignSystem;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC64D05C2791134D0053B7DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC64D0582791134D0053B7DE /* DesignSystem.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AC64D004279081FB0053B7DE /* JuanRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuanRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +106,24 @@
 		AC64D028279081FD0053B7DE /* JuanRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuanRestaurantUITests.swift; sourceTree = "<group>"; };
 		AC64D02A279081FD0053B7DE /* JuanRestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuanRestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC64D03B279110640053B7DE /* WelcomeBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBaseView.swift; sourceTree = "<group>"; };
+		AC64D0422791134D0053B7DE /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64D0442791134D0053B7DE /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
+		AC64D0452791134D0053B7DE /* DesignSystem.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DesignSystem.docc; sourceTree = "<group>"; };
+		AC64D04B2791134D0053B7DE /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64D0522791134D0053B7DE /* DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemTests.swift; sourceTree = "<group>"; };
+		AC64D063279113A70053B7DE /* DSBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSBackgroundColor.swift; sourceTree = "<group>"; };
+		AC64D066279115BB0053B7DE /* DSAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DSAssets.xcassets; sourceTree = "<group>"; };
+		AC64D069279116740053B7DE /* ViewConfigurationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurationProtocol.swift; sourceTree = "<group>"; };
+		AC64D07027911E610053B7DE /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AC64D07327911EBB0053B7DE /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		AC64D07727911F050053B7DE /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		AC64D07A27911F4B0053B7DE /* DSTextColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTextColor.swift; sourceTree = "<group>"; };
+		AC64D07D279121DC0053B7DE /* AppText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppText.swift; sourceTree = "<group>"; };
+		AC64D07F279121FE0053B7DE /* WelcomeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeText.swift; sourceTree = "<group>"; };
+		AC64D0812791227A0053B7DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AC64D084279123220053B7DE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AC6BFEEC27912FCB00AE9C46 /* HelperBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperBundle.swift; sourceTree = "<group>"; };
+		AC6BFEEE279130E300AE9C46 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC64D0572791134D0053B7DE /* DesignSystem.framework in Frameworks */,
+				AC64D06D27911B580053B7DE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +150,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC64D03F2791134D0053B7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D0482791134D0053B7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D04C2791134D0053B7DE /* DesignSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +174,8 @@
 				AC64D006279081FB0053B7DE /* JuanRestaurant */,
 				AC64D01D279081FD0053B7DE /* JuanRestaurantTests */,
 				AC64D027279081FD0053B7DE /* JuanRestaurantUITests */,
+				AC64D0432791134D0053B7DE /* DesignSystem */,
+				AC64D0512791134D0053B7DE /* DesignSystemTests */,
 				AC64D005279081FB0053B7DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +186,8 @@
 				AC64D004279081FB0053B7DE /* JuanRestaurant.app */,
 				AC64D01A279081FD0053B7DE /* JuanRestaurantTests.xctest */,
 				AC64D024279081FD0053B7DE /* JuanRestaurantUITests.xctest */,
+				AC64D0422791134D0053B7DE /* DesignSystem.framework */,
+				AC64D04B2791134D0053B7DE /* DesignSystemTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +195,7 @@
 		AC64D006279081FB0053B7DE /* JuanRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				AC64D083279123080053B7DE /* Coordinator */,
 				AC64D037279087810053B7DE /* Welcome */,
 				AC64D007279081FB0053B7DE /* AppDelegate.swift */,
 				AC64D009279081FB0053B7DE /* SceneDelegate.swift */,
@@ -109,6 +204,7 @@
 				AC64D010279081FD0053B7DE /* Assets.xcassets */,
 				AC64D012279081FD0053B7DE /* LaunchScreen.storyboard */,
 				AC64D015279081FD0053B7DE /* Info.plist */,
+				AC64D07D279121DC0053B7DE /* AppText.swift */,
 			);
 			path = JuanRestaurant;
 			sourceTree = "<group>";
@@ -133,6 +229,7 @@
 		AC64D037279087810053B7DE /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				AC64D07C279121CC0053B7DE /* Resources */,
 				AC64D03A279087920053B7DE /* ViewModel */,
 				AC64D0392790878E0053B7DE /* View */,
 				AC64D038279087860053B7DE /* ViewController */,
@@ -143,6 +240,7 @@
 		AC64D038279087860053B7DE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AC64D0812791227A0053B7DE /* WelcomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -158,11 +256,152 @@
 		AC64D03A279087920053B7DE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AC6BFEEE279130E300AE9C46 /* WelcomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		AC64D0432791134D0053B7DE /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFEEB27912FBF00AE9C46 /* HelperBundle */,
+				AC64D07527911EF90053B7DE /* Style */,
+				AC64D06E27911E520053B7DE /* Extension */,
+				AC64D068279116650053B7DE /* Protocols */,
+				AC64D065279115910053B7DE /* Resources */,
+				AC64D060279113600053B7DE /* Color */,
+				AC64D0442791134D0053B7DE /* DesignSystem.h */,
+				AC64D0452791134D0053B7DE /* DesignSystem.docc */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		AC64D0512791134D0053B7DE /* DesignSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D0522791134D0053B7DE /* DesignSystemTests.swift */,
+			);
+			path = DesignSystemTests;
+			sourceTree = "<group>";
+		};
+		AC64D060279113600053B7DE /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07927911F380053B7DE /* TextColor */,
+				AC64D062279113910053B7DE /* Background */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		AC64D062279113910053B7DE /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D063279113A70053B7DE /* DSBackgroundColor.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		AC64D065279115910053B7DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D066279115BB0053B7DE /* DSAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC64D068279116650053B7DE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D069279116740053B7DE /* ViewConfigurationProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AC64D06E27911E520053B7DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07227911EA20053B7DE /* UIButton */,
+				AC64D06F27911E560053B7DE /* UIView */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AC64D06F27911E560053B7DE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07027911E610053B7DE /* UIViewExtension.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		AC64D07227911EA20053B7DE /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07327911EBB0053B7DE /* UIButtonExtension.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		AC64D07527911EF90053B7DE /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07627911EFC0053B7DE /* Button */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		AC64D07627911EFC0053B7DE /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07727911F050053B7DE /* ButtonStyle.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		AC64D07927911F380053B7DE /* TextColor */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07A27911F4B0053B7DE /* DSTextColor.swift */,
+			);
+			path = TextColor;
+			sourceTree = "<group>";
+		};
+		AC64D07C279121CC0053B7DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D07F279121FE0053B7DE /* WelcomeText.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC64D083279123080053B7DE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D084279123220053B7DE /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AC6BFEEB27912FBF00AE9C46 /* HelperBundle */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFEEC27912FCB00AE9C46 /* HelperBundle.swift */,
+			);
+			path = HelperBundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC64D03D2791134D0053B7DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D0542791134D0053B7DE /* DesignSystem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AC64D003279081FB0053B7DE /* JuanRestaurant */ = {
@@ -172,12 +411,17 @@
 				AC64D000279081FB0053B7DE /* Sources */,
 				AC64D001279081FB0053B7DE /* Frameworks */,
 				AC64D002279081FB0053B7DE /* Resources */,
+				AC64D05C2791134D0053B7DE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AC64D0562791134D0053B7DE /* PBXTargetDependency */,
 			);
 			name = JuanRestaurant;
+			packageProductDependencies = (
+				AC64D06C27911B580053B7DE /* SnapKit */,
+			);
 			productName = JuanRestaurant;
 			productReference = AC64D004279081FB0053B7DE /* JuanRestaurant.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +462,43 @@
 			productReference = AC64D024279081FD0053B7DE /* JuanRestaurantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AC64D0412791134D0053B7DE /* DesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC64D0592791134D0053B7DE /* Build configuration list for PBXNativeTarget "DesignSystem" */;
+			buildPhases = (
+				AC64D03D2791134D0053B7DE /* Headers */,
+				AC64D03E2791134D0053B7DE /* Sources */,
+				AC64D03F2791134D0053B7DE /* Frameworks */,
+				AC64D0402791134D0053B7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignSystem;
+			productName = DesignSystem;
+			productReference = AC64D0422791134D0053B7DE /* DesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC64D04A2791134D0053B7DE /* DesignSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC64D05D2791134D0053B7DE /* Build configuration list for PBXNativeTarget "DesignSystemTests" */;
+			buildPhases = (
+				AC64D0472791134D0053B7DE /* Sources */,
+				AC64D0482791134D0053B7DE /* Frameworks */,
+				AC64D0492791134D0053B7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC64D04E2791134D0053B7DE /* PBXTargetDependency */,
+				AC64D0502791134D0053B7DE /* PBXTargetDependency */,
+			);
+			name = DesignSystemTests;
+			productName = DesignSystemTests;
+			productReference = AC64D04B2791134D0053B7DE /* DesignSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,6 +520,13 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = AC64D003279081FB0053B7DE;
 					};
+					AC64D0412791134D0053B7DE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AC64D04A2791134D0053B7DE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AC64D003279081FB0053B7DE;
+					};
 				};
 			};
 			buildConfigurationList = AC64CFFF279081FB0053B7DE /* Build configuration list for PBXProject "JuanRestaurant" */;
@@ -250,6 +538,9 @@
 				Base,
 			);
 			mainGroup = AC64CFFB279081FB0053B7DE;
+			packageReferences = (
+				AC64D06B27911B580053B7DE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = AC64D005279081FB0053B7DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +548,8 @@
 				AC64D003279081FB0053B7DE /* JuanRestaurant */,
 				AC64D019279081FD0053B7DE /* JuanRestaurantTests */,
 				AC64D023279081FD0053B7DE /* JuanRestaurantUITests */,
+				AC64D0412791134D0053B7DE /* DesignSystem */,
+				AC64D04A2791134D0053B7DE /* DesignSystemTests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,6 +579,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC64D0402791134D0053B7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D067279115BB0053B7DE /* DSAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D0492791134D0053B7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -294,9 +602,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC64D00C279081FB0053B7DE /* ViewController.swift in Sources */,
+				AC6BFEEF279130E300AE9C46 /* WelcomeViewModel.swift in Sources */,
+				AC64D080279121FE0053B7DE /* WelcomeText.swift in Sources */,
 				AC64D008279081FB0053B7DE /* AppDelegate.swift in Sources */,
+				AC64D07E279121DC0053B7DE /* AppText.swift in Sources */,
+				AC64D085279123220053B7DE /* AppCoordinator.swift in Sources */,
 				AC64D03C279110640053B7DE /* WelcomeBaseView.swift in Sources */,
 				AC64D00A279081FB0053B7DE /* SceneDelegate.swift in Sources */,
+				AC64D0822791227A0053B7DE /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +630,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC64D03E2791134D0053B7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D07B27911F4B0053B7DE /* DSTextColor.swift in Sources */,
+				AC64D064279113A70053B7DE /* DSBackgroundColor.swift in Sources */,
+				AC64D07427911EBB0053B7DE /* UIButtonExtension.swift in Sources */,
+				AC64D06A279116740053B7DE /* ViewConfigurationProtocol.swift in Sources */,
+				AC64D07827911F050053B7DE /* ButtonStyle.swift in Sources */,
+				AC64D07127911E610053B7DE /* UIViewExtension.swift in Sources */,
+				AC64D0462791134D0053B7DE /* DesignSystem.docc in Sources */,
+				AC6BFEED27912FCB00AE9C46 /* HelperBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D0472791134D0053B7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D0532791134D0053B7DE /* DesignSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -329,6 +665,21 @@
 			isa = PBXTargetDependency;
 			target = AC64D003279081FB0053B7DE /* JuanRestaurant */;
 			targetProxy = AC64D025279081FD0053B7DE /* PBXContainerItemProxy */;
+		};
+		AC64D04E2791134D0053B7DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC64D0412791134D0053B7DE /* DesignSystem */;
+			targetProxy = AC64D04D2791134D0053B7DE /* PBXContainerItemProxy */;
+		};
+		AC64D0502791134D0053B7DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC64D003279081FB0053B7DE /* JuanRestaurant */;
+			targetProxy = AC64D04F2791134D0053B7DE /* PBXContainerItemProxy */;
+		};
+		AC64D0562791134D0053B7DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC64D0412791134D0053B7DE /* DesignSystem */;
+			targetProxy = AC64D0552791134D0053B7DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -403,7 +754,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -458,7 +809,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -471,6 +822,7 @@
 		AC64D02F279081FD0053B7DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,7 +832,7 @@
 				INFOPLIST_FILE = JuanRestaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,13 +844,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC64D030279081FD0053B7DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,7 +861,7 @@
 				INFOPLIST_FILE = JuanRestaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,7 +873,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -620,6 +973,116 @@
 			};
 			name = Release;
 		};
+		AC64D05A2791134D0053B7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.DesignSystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC64D05B2791134D0053B7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.DesignSystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC64D05E2791134D0053B7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.DesignSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuanRestaurant.app/JuanRestaurant";
+			};
+			name = Debug;
+		};
+		AC64D05F2791134D0053B7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.DesignSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuanRestaurant.app/JuanRestaurant";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -659,7 +1122,44 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AC64D0592791134D0053B7DE /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64D05A2791134D0053B7DE /* Debug */,
+				AC64D05B2791134D0053B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC64D05D2791134D0053B7DE /* Build configuration list for PBXNativeTarget "DesignSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64D05E2791134D0053B7DE /* Debug */,
+				AC64D05F2791134D0053B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC64D06B27911B580053B7DE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC64D06C27911B580053B7DE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC64D06B27911B580053B7DE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC64CFFC279081FB0053B7DE /* Project object */;
 }
