@@ -45,6 +45,18 @@
 		AC6BFF062791330000AE9C46 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF052791330000AE9C46 /* HttpMethod.swift */; };
 		AC6BFF082791332500AE9C46 /* HttpHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF072791332500AE9C46 /* HttpHeaders.swift */; };
 		AC6BFF0A2791333900AE9C46 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF092791333900AE9C46 /* HttpError.swift */; };
+		AC6BFF1127913BB400AE9C46 /* WelcomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF1027913BB400AE9C46 /* WelcomeAPI.swift */; };
+		AC6BFF1427913C6900AE9C46 /* EnvironmentURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF1327913C6900AE9C46 /* EnvironmentURLHandler.swift */; };
+		AC6BFF1727913D3800AE9C46 /* RestaurantResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF1627913D3800AE9C46 /* RestaurantResult.swift */; };
+		AC6BFF1927913D5100AE9C46 /* RestaurantInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF1827913D5100AE9C46 /* RestaurantInformation.swift */; };
+		ACC5E27A2791EF0200C242F4 /* LoaderBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E2792791EF0200C242F4 /* LoaderBaseView.swift */; };
+		ACC5E27D2791EFF400C242F4 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E27C2791EFF400C242F4 /* LabelStyle.swift */; };
+		ACC5E2802792222400C242F4 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E27F2792222400C242F4 /* UILabelExtension.swift */; };
+		ACC5E28327922FD300C242F4 /* RestaurantAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E28227922FD300C242F4 /* RestaurantAddress.swift */; };
+		ACC5E2852792311D00C242F4 /* RestaurantMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E2842792311D00C242F4 /* RestaurantMenus.swift */; };
+		ACC5E28A2792444B00C242F4 /* RestaurantMenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E2892792444B00C242F4 /* RestaurantMenuSection.swift */; };
+		ACC5E28C279244A600C242F4 /* RestaurantSectionItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E28B279244A600C242F4 /* RestaurantSectionItems.swift */; };
+		ACC5E28E27924D3400C242F4 /* RestaurantMenuItemPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5E28D27924D3400C242F4 /* RestaurantMenuItemPrice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +159,18 @@
 		AC6BFF052791330000AE9C46 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		AC6BFF072791332500AE9C46 /* HttpHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeaders.swift; sourceTree = "<group>"; };
 		AC6BFF092791333900AE9C46 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		AC6BFF1027913BB400AE9C46 /* WelcomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAPI.swift; sourceTree = "<group>"; };
+		AC6BFF1327913C6900AE9C46 /* EnvironmentURLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentURLHandler.swift; sourceTree = "<group>"; };
+		AC6BFF1627913D3800AE9C46 /* RestaurantResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResult.swift; sourceTree = "<group>"; };
+		AC6BFF1827913D5100AE9C46 /* RestaurantInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInformation.swift; sourceTree = "<group>"; };
+		ACC5E2792791EF0200C242F4 /* LoaderBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderBaseView.swift; sourceTree = "<group>"; };
+		ACC5E27C2791EFF400C242F4 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		ACC5E27F2792222400C242F4 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		ACC5E28227922FD300C242F4 /* RestaurantAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantAddress.swift; sourceTree = "<group>"; };
+		ACC5E2842792311D00C242F4 /* RestaurantMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenus.swift; sourceTree = "<group>"; };
+		ACC5E2892792444B00C242F4 /* RestaurantMenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuSection.swift; sourceTree = "<group>"; };
+		ACC5E28B279244A600C242F4 /* RestaurantSectionItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSectionItems.swift; sourceTree = "<group>"; };
+		ACC5E28D27924D3400C242F4 /* RestaurantMenuItemPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuItemPrice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +252,7 @@
 		AC64D006279081FB0053B7DE /* JuanRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				AC6BFF1227913C5A00AE9C46 /* Environment */,
 				AC64D083279123080053B7DE /* Coordinator */,
 				AC64D037279087810053B7DE /* Welcome */,
 				AC64D007279081FB0053B7DE /* AppDelegate.swift */,
@@ -262,6 +287,8 @@
 		AC64D037279087810053B7DE /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				AC6BFF1527913D2C00AE9C46 /* Model */,
+				AC6BFF0F27913BAD00AE9C46 /* API */,
 				AC64D07C279121CC0053B7DE /* Resources */,
 				AC64D03A279087920053B7DE /* ViewModel */,
 				AC64D0392790878E0053B7DE /* View */,
@@ -297,6 +324,7 @@
 		AC64D0432791134D0053B7DE /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				ACC5E2762791EEDF00C242F4 /* Component */,
 				AC6BFEEB27912FBF00AE9C46 /* HelperBundle */,
 				AC64D07527911EF90053B7DE /* Style */,
 				AC64D06E27911E520053B7DE /* Extension */,
@@ -353,6 +381,7 @@
 		AC64D06E27911E520053B7DE /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ACC5E27E2792221800C242F4 /* UILabel */,
 				AC64D07227911EA20053B7DE /* UIButton */,
 				AC64D06F27911E560053B7DE /* UIView */,
 			);
@@ -378,6 +407,7 @@
 		AC64D07527911EF90053B7DE /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				ACC5E27B2791EFE300C242F4 /* Label */,
 				AC64D07627911EFC0053B7DE /* Button */,
 			);
 			path = Style;
@@ -442,6 +472,76 @@
 				AC6BFF092791333900AE9C46 /* HttpError.swift */,
 			);
 			path = Http;
+			sourceTree = "<group>";
+		};
+		AC6BFF0F27913BAD00AE9C46 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFF1027913BB400AE9C46 /* WelcomeAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AC6BFF1227913C5A00AE9C46 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFF1327913C6900AE9C46 /* EnvironmentURLHandler.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		AC6BFF1527913D2C00AE9C46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFF1627913D3800AE9C46 /* RestaurantResult.swift */,
+				AC6BFF1827913D5100AE9C46 /* RestaurantInformation.swift */,
+				ACC5E28227922FD300C242F4 /* RestaurantAddress.swift */,
+				ACC5E2842792311D00C242F4 /* RestaurantMenus.swift */,
+				ACC5E2892792444B00C242F4 /* RestaurantMenuSection.swift */,
+				ACC5E28B279244A600C242F4 /* RestaurantSectionItems.swift */,
+				ACC5E28D27924D3400C242F4 /* RestaurantMenuItemPrice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC5E2762791EEDF00C242F4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5E2772791EEE400C242F4 /* Loader */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		ACC5E2772791EEE400C242F4 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5E2782791EEE800C242F4 /* View */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		ACC5E2782791EEE800C242F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5E2792791EF0200C242F4 /* LoaderBaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC5E27B2791EFE300C242F4 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5E27C2791EFF400C242F4 /* LabelStyle.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		ACC5E27E2792221800C242F4 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5E27F2792222400C242F4 /* UILabelExtension.swift */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -693,15 +793,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC5E28E27924D3400C242F4 /* RestaurantMenuItemPrice.swift in Sources */,
 				AC64D00C279081FB0053B7DE /* ViewController.swift in Sources */,
 				AC6BFEEF279130E300AE9C46 /* WelcomeViewModel.swift in Sources */,
 				AC64D080279121FE0053B7DE /* WelcomeText.swift in Sources */,
+				AC6BFF1927913D5100AE9C46 /* RestaurantInformation.swift in Sources */,
 				AC64D008279081FB0053B7DE /* AppDelegate.swift in Sources */,
 				AC64D07E279121DC0053B7DE /* AppText.swift in Sources */,
+				AC6BFF1727913D3800AE9C46 /* RestaurantResult.swift in Sources */,
+				ACC5E2852792311D00C242F4 /* RestaurantMenus.swift in Sources */,
 				AC64D085279123220053B7DE /* AppCoordinator.swift in Sources */,
+				ACC5E28A2792444B00C242F4 /* RestaurantMenuSection.swift in Sources */,
 				AC64D03C279110640053B7DE /* WelcomeBaseView.swift in Sources */,
+				AC6BFF1427913C6900AE9C46 /* EnvironmentURLHandler.swift in Sources */,
+				ACC5E28C279244A600C242F4 /* RestaurantSectionItems.swift in Sources */,
 				AC64D00A279081FB0053B7DE /* SceneDelegate.swift in Sources */,
+				ACC5E28327922FD300C242F4 /* RestaurantAddress.swift in Sources */,
 				AC64D0822791227A0053B7DE /* WelcomeViewController.swift in Sources */,
+				AC6BFF1127913BB400AE9C46 /* WelcomeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,11 +837,14 @@
 			files = (
 				AC64D07B27911F4B0053B7DE /* DSTextColor.swift in Sources */,
 				AC64D064279113A70053B7DE /* DSBackgroundColor.swift in Sources */,
+				ACC5E27D2791EFF400C242F4 /* LabelStyle.swift in Sources */,
 				AC64D07427911EBB0053B7DE /* UIButtonExtension.swift in Sources */,
 				AC64D06A279116740053B7DE /* ViewConfigurationProtocol.swift in Sources */,
 				AC64D07827911F050053B7DE /* ButtonStyle.swift in Sources */,
+				ACC5E27A2791EF0200C242F4 /* LoaderBaseView.swift in Sources */,
 				AC64D07127911E610053B7DE /* UIViewExtension.swift in Sources */,
 				AC64D0462791134D0053B7DE /* DesignSystem.docc in Sources */,
+				ACC5E2802792222400C242F4 /* UILabelExtension.swift in Sources */,
 				AC6BFEED27912FCB00AE9C46 /* HelperBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -863,7 +975,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -918,7 +1030,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -934,6 +1046,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BaseURL = "https://api.documenu.com";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69845R2YL4;
@@ -963,6 +1076,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BaseURL = "https://api.documenu.com";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69845R2YL4;
@@ -1205,7 +1319,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1215,9 +1329,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.APIManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1236,7 +1351,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1246,9 +1361,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JuanCompany.APIManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

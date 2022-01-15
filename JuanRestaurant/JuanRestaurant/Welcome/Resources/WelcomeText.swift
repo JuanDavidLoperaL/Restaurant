@@ -10,5 +10,6 @@ import Foundation
 extension AppText {
     struct Welcome {
         static let menuButton: String = "Menu"
+        static let downloadMessage: String = "Getting restaurant information..."
     }
 }
