@@ -16,6 +16,7 @@ final class WelcomeBaseView: UIView {
     // MARK: - Private UI Properties
     private let restaurantNameLabel: UILabel = {
         let label: UILabel = UILabel()
+        label.apply(style: .h1Medium(align: .center))
         return label
     }()
     
@@ -30,16 +31,20 @@ final class WelcomeBaseView: UIView {
     
     private let customerAttentionLabel: UILabel = {
         let label: UILabel = UILabel()
+        label.apply(style: .h3Regular(align: .center))
         return label
     }()
     
     private let telephoneNumberLabel: UILabel = {
         let label: UILabel = UILabel()
+        label.apply(style: .h3Regular(align: .center))
         return label
     }()
     
     private let restaurantAddressLabel: UILabel = {
         let label: UILabel = UILabel()
+        label.apply(style: .h3Regular(align: .center))
+        label.numberOfLines = 0
         return label
     }()
     
@@ -49,6 +54,8 @@ final class WelcomeBaseView: UIView {
         button.setTitle(screenText.menuButton, for: .normal)
         return button
     }()
+    
+    private let loader: LoaderBaseView = LoaderBaseView()
     
     // MARK: - Internal Init
     init() {
@@ -65,7 +72,7 @@ final class WelcomeBaseView: UIView {
 // MARK: - ViewCode Configuration
 extension WelcomeBaseView: ViewConfigurationProtocol {
     func setupViewHierarchy() {
-        [restaurantNameLabel, informationStackView, menuButton].forEach { view in
+        [restaurantNameLabel, informationStackView, menuButton, loader].forEach { view in
             addSubview(view)
         }
         [customerAttentionLabel, telephoneNumberLabel, restaurantAddressLabel].forEach { view in
@@ -92,9 +99,44 @@ extension WelcomeBaseView: ViewConfigurationProtocol {
             make.width.equalTo(70.0)
             make.height.equalTo(55.0)
         }
+        
+        loader.snp.makeConstraints { make in
+            make.top.equalTo(self.snp.top)
+            make.leading.equalTo(self.snp.leading)
+            make.trailing.equalTo(self.snp.trailing)
+            make.bottom.equalTo(self.snp.bottom)
+        }
     }
     
     func configureViews() {
         self.apply(background: .mainScreen)
+        loader.setLoader(message: screenText.downloadMessage)
+    }
+}
+
+// MARK: - Internal Function
+extension WelcomeBaseView {
+    func set(viewModel: WelcomeViewModel) {
+        restaurantNameLabel.text = viewModel.restaurantName
+        customerAttentionLabel.text = viewModel.hoursRestaurantOpen
+        telephoneNumberLabel.text = viewModel.restaurantPhone
+        restaurantAddressLabel.text = viewModel.restaurantAddress
+    }
+    
+    func showLoader(with trackValue: CGFloat) {
+        loader.showLoader(with: trackValue)
+    }
+    
+    func hideLoader() {
+        loader.isHidden = true
+        loader.alpha = 0.0
+    }
+    
+    func loaderFinished(withError: Bool) {
+        if withError {
+            loader.finishWithError()
+        } else {
+            loader.finish()
+        }
     }
 }

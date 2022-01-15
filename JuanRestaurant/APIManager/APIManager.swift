@@ -13,7 +13,7 @@ final public class APIManager {
     private let config: URLSessionConfiguration
     
     // MARK: - Public Init
-    init(config: URLSessionConfiguration = .default) {
+    public init(config: URLSessionConfiguration = .default) {
         self.config = config
     }
     
@@ -81,7 +81,9 @@ final public class APIManager {
     }
     
     private func printResponseLog(httpResponse: HTTPURLResponse, data: Data) {
-        debugPrint("✅ ☄️ STATUS CODE: \(httpResponse.statusCode)")
-        debugPrint("BODY: \(String(decoding: httpResponse.statusCode == 204 ? Data("No content.".utf8) : data, as: UTF8.self)) ☄️ ✅")
+        print("✅ ======= Response ======= ✅")
+        debugPrint("STATUS CODE: \(httpResponse.statusCode)")
+        debugPrint("BODY: \(String(decoding: httpResponse.statusCode == 204 ? Data("No content.".utf8) : data, as: UTF8.self))")
+        print("✅ ======= Response ======= ✅")
     }
 }
