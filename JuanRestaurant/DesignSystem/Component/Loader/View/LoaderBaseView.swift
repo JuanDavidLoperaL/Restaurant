@@ -99,7 +99,7 @@ extension LoaderBaseView: ViewConfigurationProtocol {
 
 // MARK: - Public Function
 public extension LoaderBaseView {
-    public func setLoader(message: String) {
+    func setLoader(message: String) {
         downloadDescriptionLabel.text = message
     }
     

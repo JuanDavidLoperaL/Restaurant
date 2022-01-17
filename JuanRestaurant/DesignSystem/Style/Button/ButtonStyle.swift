@@ -23,7 +23,7 @@ public enum ButtonStyle {
         switch self {
         case .primary:
             let configuration: Configuration = Configuration(font: UIFont.systemFont(ofSize: 15.0, weight: .medium),
-                                                             backgroundColor: DSBackgroundColor.paleTurquoise,
+                                                             backgroundColor: DSBackgroundColor.cadetBlue,
                                                              textColor: DSTextColor.white,
                                                              align: NSTextAlignment.center)
             return configuration

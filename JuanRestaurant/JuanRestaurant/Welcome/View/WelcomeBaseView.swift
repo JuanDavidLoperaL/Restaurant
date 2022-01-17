@@ -9,6 +9,10 @@ import SnapKit
 import DesignSystem
 import UIKit
 
+protocol WelcomeBaseViewDelegate: AnyObject {
+    func menuButtonTapped()
+}
+
 final class WelcomeBaseView: UIView {
     
     typealias screenText = AppText.Welcome
@@ -52,10 +56,14 @@ final class WelcomeBaseView: UIView {
         let button: UIButton = UIButton()
         button.apply(style: .primary)
         button.setTitle(screenText.menuButton, for: .normal)
+        button.addTarget(self, action: #selector(menuButtonAction), for: .touchDown)
         return button
     }()
     
     private let loader: LoaderBaseView = LoaderBaseView()
+    
+    // MARK: - Delegate
+    weak var delegate: WelcomeBaseViewDelegate?
     
     // MARK: - Internal Init
     init() {
@@ -138,5 +146,13 @@ extension WelcomeBaseView {
         } else {
             loader.finish()
         }
+    }
+}
+
+// MARK: - Private Function
+extension WelcomeBaseView {
+    @objc
+    private func menuButtonAction() {
+        delegate?.menuButtonTapped()
     }
 }

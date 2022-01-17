@@ -10,7 +10,9 @@ import UIKit
 public enum DSBackgroundColor {
     case clear
     case mainScreen
-    case paleTurquoise
+    case cadetBlue
+    case divider
+    case selectedDivider
     
     func getColor() -> UIColor {
         switch self {
@@ -19,9 +21,15 @@ public enum DSBackgroundColor {
         case .mainScreen:
             let mainBackgroundColorName: String = "MainBackground"
             return UIColor(named: mainBackgroundColorName, in: bundle, compatibleWith: nil) ?? UIColor.white
-        case .paleTurquoise:
+        case .cadetBlue:
             let cadetBlueColorName: String = "CadetBlue"
             return UIColor(named: cadetBlueColorName, in: bundle, compatibleWith: nil) ?? UIColor.cyan
+        case .divider:
+            let dividerColorName: String = "Divider"
+            return UIColor(named: dividerColorName, in: bundle, compatibleWith: nil) ?? UIColor.lightGray
+        case .selectedDivider:
+            let selectedDividerColorName: String = "SelectedDivider"
+            return UIColor(named: selectedDividerColorName, in: bundle, compatibleWith: nil) ?? UIColor.black
         }
     }
 }
