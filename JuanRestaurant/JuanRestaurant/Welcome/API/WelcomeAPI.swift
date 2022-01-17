@@ -31,7 +31,9 @@ final class WelcomeAPI: WelcomeAPIProtocol {
     func getRestaurantInformation(callback: @escaping(Result<RestaurantResult?, HttpError>) -> Void) {
         let restaurantId: String = "4072702673999819"
         baseURL.path = "\(Endpoint.restaurantInfo.rawValue)\(restaurantId)"
-        baseURL.queryItems = [URLQueryItem(name: "key", value: "f817603fcf66553f70f9dec2232c87de")]
+        //afb97741b7901bd0296b2e31f436b8fe
+        //f817603fcf66553f70f9dec2232c87de
+        baseURL.queryItems = [URLQueryItem(name: "key", value: "afb97741b7901bd0296b2e31f436b8fe")]
         guard
             let url: URL = baseURL.url
         else {

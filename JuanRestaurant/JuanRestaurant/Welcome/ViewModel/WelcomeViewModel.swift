@@ -5,6 +5,7 @@
 //  Created by Juan David Lopera Lopez on 13/01/22.
 //
 
+import APIManager
 import UIKit
 
 final class WelcomeViewModel {
@@ -16,7 +17,8 @@ final class WelcomeViewModel {
     private let increaseDownloadInOnePercent: CGFloat = 0.01
     private var timer : Timer?
     private var trackValue: CGFloat = 0.0
-    private var restaurantInformation: RestaurantResult?
+    private(set) var restaurantInformation: RestaurantResult?
+    private(set) var httpError: HttpError?
     
     // MARK: - Delegate
     weak var delegate: WelcomeViewControllerDelegate?
@@ -54,11 +56,12 @@ extension WelcomeViewModel {
                 case .success(let restaurant):
                     self?.restaurantInformation = restaurant
                     self?.delegate?.informationLoadedWithSucess()
+                    self?.httpError = nil
                     callback(true)
                 case .failure(let httpError):
                     self?.restaurantInformation = nil
                     self?.delegate?.errorLoadingInformation()
-                    print(httpError)
+                    self?.httpError = httpError
                     callback(false)
                 }
             }

@@ -24,4 +24,10 @@ final class AppCoordinator {
         navigationController.setViewControllers([viewController], animated: true)
         return navigationController
     }
+    
+    func navigateToFoodMenu(restaurant: RestaurantInformation) {
+        let viewModel: FoodMenuViewModel = FoodMenuViewModel(restaurant: restaurant)
+        let viewController: FoodMenuViewController = FoodMenuViewController(coordinator: self, viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
+    }
 }
