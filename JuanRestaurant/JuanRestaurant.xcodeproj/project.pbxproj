@@ -13,8 +13,6 @@
 		AC29EB972796060900FA747E /* RestaurantResultMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC29EB962796060900FA747E /* RestaurantResultMock.swift */; };
 		AC64D008279081FB0053B7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D007279081FB0053B7DE /* AppDelegate.swift */; };
 		AC64D00A279081FB0053B7DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D009279081FB0053B7DE /* SceneDelegate.swift */; };
-		AC64D00C279081FB0053B7DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D00B279081FB0053B7DE /* ViewController.swift */; };
-		AC64D00F279081FB0053B7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64D00D279081FB0053B7DE /* Main.storyboard */; };
 		AC64D011279081FD0053B7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC64D010279081FD0053B7DE /* Assets.xcassets */; };
 		AC64D014279081FD0053B7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64D012279081FD0053B7DE /* LaunchScreen.storyboard */; };
 		AC64D01F279081FD0053B7DE /* JuanRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D01E279081FD0053B7DE /* JuanRestaurantTests.swift */; };
@@ -141,8 +139,6 @@
 		AC64D004279081FB0053B7DE /* JuanRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuanRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64D007279081FB0053B7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC64D009279081FB0053B7DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC64D00B279081FB0053B7DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC64D00E279081FB0053B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC64D010279081FD0053B7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC64D013279081FD0053B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC64D015279081FD0053B7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -336,8 +332,6 @@
 				AC6BFF1227913C5A00AE9C46 /* Environment */,
 				AC64D007279081FB0053B7DE /* AppDelegate.swift */,
 				AC64D009279081FB0053B7DE /* SceneDelegate.swift */,
-				AC64D00B279081FB0053B7DE /* ViewController.swift */,
-				AC64D00D279081FB0053B7DE /* Main.storyboard */,
 				AC64D010279081FD0053B7DE /* Assets.xcassets */,
 				AC64D012279081FD0053B7DE /* LaunchScreen.storyboard */,
 				AC64D015279081FD0053B7DE /* Info.plist */,
@@ -908,7 +902,6 @@
 			files = (
 				AC64D014279081FD0053B7DE /* LaunchScreen.storyboard in Resources */,
 				AC64D011279081FD0053B7DE /* Assets.xcassets in Resources */,
-				AC64D00F279081FB0053B7DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,7 +951,6 @@
 				ACA606E8279325FA00767D04 /* SectionFoodCollectionViewCell.swift in Sources */,
 				ACFB23012794D54200BB785F /* DelegateSectionCollectionView.swift in Sources */,
 				ACC5E28E27924D3400C242F4 /* RestaurantMenuItemPrice.swift in Sources */,
-				AC64D00C279081FB0053B7DE /* ViewController.swift in Sources */,
 				AC6BFEEF279130E300AE9C46 /* WelcomeViewModel.swift in Sources */,
 				ACA606E52792A55600767D04 /* FoodMenuViewModel.swift in Sources */,
 				ACFB22FD2794D47C00BB785F /* FoodMenuText.swift in Sources */,
@@ -1081,14 +1073,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC64D00D279081FB0053B7DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC64D00E279081FB0053B7DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC64D012279081FD0053B7DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
